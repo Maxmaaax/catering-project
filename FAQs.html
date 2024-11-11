@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQs - Egerton University Catering Department</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    /* Reset margin and padding */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Body and Container Styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .container {
+        max-width: 1100px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        flex-grow: 1;
+    }
+
+    header {
+        background-color: #fff;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        width: 200px;
+        height: 180px;
+    }
+
+  
+
+    .nav-bar ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .nav-bar a {
+        text-decoration: none;
+        color: #333;
+        padding: 5px 10px;
+    }
+
+    .nav-bar a:hover {
+        background-color: #10aa34;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    /* FAQ Section Styles */
+    h2 {
+        text-align: center;
+        color: #10aa34;
+        margin-bottom: 20px;
+    }
+
+    .faq-question {
+        color: #10aa34;
+        cursor: pointer;
+        padding: 15px;
+        border: 1px solid #ddd;
+        margin: 10px 0;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        transition: background-color 0.3s;
+        width: 100%;
+    }
+
+    .faq-question:hover {
+        background-color: #e0ffe0;
+    }
+
+    .faq-answer {
+        display: none;
+        color: red;
+        padding: 15px;
+        border-left: 3px solid #10aa34;
+        background-color: #fff0f0;
+        border-radius: 5px;
+    }
+
+    /* Footer */
+    .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        width: 100%;
+        margin-top: auto;
+    }
+
+    .footer p {
+        margin: 0;
+        font-size: 14px;
+    }
+</style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header class="header">
+    <div class="logo-container">
+        <div style="background-color: #10aa34; padding: 10px;">
+            <img src="egertonuniversity-logo_thumb.png" alt="Egerton University Logo" class="logo">
+        </div>
+        <div style="margin-left: 10px;">
+            <h1 class="main-title" style="margin: 0;">Egerton University</h1>
+            <h1 class="sub-title" style="margin: 0;">Catering Department</h1>
+        </div>
+    </div>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="ourteam.html">Staff</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- FAQ Section -->
+<div class="container">
+    <h2>Frequently Asked Questions (FAQs)</h2>
+    <div class="faq">
+        <div class="faq-item">
+            <div class="faq-question">1. What are the operating hours of the catering department?</div>
+            <div class="faq-answer"><p>Our catering department operates from 7:00 AM to 8:00 PM, Monday to Saturday.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">2. Do you offer special dietary options for students and staff?</div>
+            <div class="faq-answer"><p>Yes, we cater to various dietary needs including vegetarian, vegan, gluten-free, and halal options.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">3. Can I place an order for an event or departmental meeting?</div>
+            <div class="faq-answer"><p>Yes, you can contact our office for event catering services at least 3 days in advance.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">4. How can I provide feedback or report an issue with my meal?</div>
+            <div class="faq-answer"><p>Your feedback is valuable. You can provide it online or visit our catering office directly.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">5. Do you offer meal plans or prepaid options for regular customers?</div>
+            <div class="faq-answer"><p>Yes, we offer flexible meal plans for students, lecturers, and staff. Choose from weekly or monthly options.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">6. Are takeaway and delivery services available?</div>
+            <div class="faq-answer"><p>Yes, we offer takeaway and delivery services for staff offices and student hostels.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">7. Can I customize my order or make special requests?</div>
+            <div class="faq-answer"><p>We accommodate special requests when possible. Please inform our staff when placing your order.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">8. How can I check the daily menu?</div>
+            <div class="faq-answer"><p>Visit our "Menu" section on the website for daily updates.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">9. Do you provide catering for dietary restrictions during university events?</div>
+            <div class="faq-answer"><p>Yes, we cater for dietary needs like vegetarian, vegan, and gluten-free during events.</p></div>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">10. Can external guests dine at the university's catering facilities?</div>
+            <div class="faq-answer"><p>Yes, we welcome visitors, including family members, to dine with us.</p></div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript for FAQ Toggle -->
+<script>
+    document.querySelectorAll('.faq-question').forEach((question) => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
+
+<!-- Footer Section -->
+<div class="footer">
+    <p>&copy; 2024 Egerton University.</p>
+    <p> All rights reserved.</p>
+</div>
+
+</body>
+</html>
